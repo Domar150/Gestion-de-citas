@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    margin: 0;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    align-items: center;
+    justify-content: flex-start;   /* Alinea a la izquierda */
+    background-color: #f8f9fa;
+    padding: 1rem 1rem;           /* Espaciado arriba/abajo y más margen horizontal */
+    border-bottom: 1px solid #ccc;
+    gap: 1rem;                    /* Espacio entre logo y textos */
+}
+
+
+.logo {
+  width: 60px;
+  height: 60px;
+  margin-right: 1.5rem; /* espacio entre logo y textos */
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  font-size: 1.8rem;
+  margin: 0;
+  color: #0d1b2a;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 1rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0;
+  color: #d90429;
+}

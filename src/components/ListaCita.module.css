@@ -1,0 +1,12 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* ✅ Define 4 columnas de igual ancho */
+  gap: 1rem;
+}
+
+.titulo {
+  font-size: 2rem;
+  color: #0d1b2a;
+  text-align: 0;
+  margin-bottom: 2rem;
+}
