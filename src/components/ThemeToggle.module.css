@@ -1,0 +1,25 @@
+/* modos en la pagina en beta*/
+
+.themeToggleBtn {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  font-size: 14px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.light {
+  background: #222;
+  color: #fff;
+}
+
+.dark {
+  background: #ddd;
+  color: #000;
+}

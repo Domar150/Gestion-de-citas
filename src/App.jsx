@@ -1,10 +1,11 @@
-// src/App.jsx
 import { useState, useEffect } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Formulario from './components/Formulario';
 import ListaCitas from './components/ListaCitas';
-import Alerta from './components/Alerta'; // ✅ Importa el nuevo componente
+import Alerta from './components/Alerta';
+import ThemeToggle from './components/ThemeToggle'; // Importa el componente de cambio de tema
+
 import './App.css';
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
     return local ? JSON.parse(local) : [];
   });
 
-  // ✅ Nuevo estado para la alerta
+  // Nuevo estado para la alerta
   const [alerta, setAlerta] = useState({ mensaje: '', tipo: '' });
 
   useEffect(() => {
@@ -58,9 +59,9 @@ function App() {
           actualizarCita={actualizarCita}
         />
       </main>
-      <Footer />
-      {/* Agrega el componente de alerta al final */}
       <Alerta mensaje={alerta.mensaje} tipo={alerta.tipo} onClose={cerrarAlerta} />
+      <ThemeToggle />
+      <Footer />
     </div>
   );
 }

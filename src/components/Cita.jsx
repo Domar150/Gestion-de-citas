@@ -1,3 +1,5 @@
+//Aqui se aplica la logica de poner los datos de la cita en una tarjeta para editar
+
 import { useState } from 'react';
 import styles from './Cita.module.css';
 

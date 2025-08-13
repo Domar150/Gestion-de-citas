@@ -1,7 +1,11 @@
-// src/components/Alerta.jsx
+// Alertas para mostrar mensajes al usuario
+
+//Aqui se importan los hooks de React y los estilos del componente
 import { useEffect, useState } from 'react';
 import styles from './Alerta.module.css';
 
+// Componente Alerta que recibe un mensaje, tipo y una función onClose
+// El mensaje se muestra durante 3 segundos y luego desaparece
 function Alerta({ mensaje, tipo, onClose }) {
   const [visible, setVisible] = useState(false);
 

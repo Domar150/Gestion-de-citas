@@ -1,3 +1,6 @@
+//Estructura del componente Header
+// Este componente muestra el encabezado de la aplicación con un logo y un título
+
 import styles from './Header.module.css';
 import logo from '/favicon.png';
 

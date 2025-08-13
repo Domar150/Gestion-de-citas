@@ -1,4 +1,4 @@
-/* src/components/Alerta.module.css */
+/* Estilos para las alertas */
 .alerta {
   position: fixed;
   bottom: 20px;
@@ -21,7 +21,7 @@
 }
 
 .alerta.error {
-  border-left: 5px solid #dc3545; /* Marca roja para errores (opcional) */
+  border-left: 5px solid #dc3545; /* Marca roja para errores*/
 }
 
 .mensaje {
