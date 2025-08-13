@@ -1,6 +1,6 @@
 .grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Se define 4 columnas de igual ancho */
+  grid-template-columns: repeat(3, 1fr); /* Se define 3 columnas de igual ancho */
   gap: 1rem;
 }
 
